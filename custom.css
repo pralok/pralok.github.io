@@ -1,1 +1,61 @@
 
+.special-table{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	color: #000;
+}
+
+.special-table th {
+	display: none;
+
+}
+
+.special-table tr:first-child {
+	display: none;
+}
+
+.special-table {
+	background-image: url("./img/bg.png");
+}
+.special-table td {
+   border: 0;
+}
+
+.header {
+	width: 100%;
+	background: #000000;
+	height: 145px;
+	background-image: url(./img/bg.png);
+}
+
+.special-table tbody {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.special-table tr {
+	padding: 10px;
+	display: grid;
+	flex-wrap: wrap;
+	width: 18%;
+	height: 116px;
+	margin: 1px 0px;
+	border: 1px solid #ffffff59;
+}
+
+
+.para h1 {
+	padding-top: 7%;
+	text-align: center;
+	color: #ffff;
+	font-weight: 400;
+	letter-spacing: 9px;
+	font-family: fantasy;
+}
